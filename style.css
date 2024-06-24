@@ -1,0 +1,301 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navigation .site_name{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+    text-decoration: none;
+    color:#fff
+}
+
+.navigation{
+    height: 72px;
+    background: #7AA2E3;
+    padding: 0 30px;
+}
+
+.nav_list{
+    display:flex;
+    gap: 30px;
+    margin-bottom: 0;
+}
+
+.nav_list li{
+    list-style: none;
+}
+
+.nav_list li a{
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    text-align: left;
+    color:#fff;
+}
+
+.banner_img{
+    width:100%;
+}
+
+.inner_content{
+    background: linear-gradient(179.87deg, #97E7E1 2.52%, #FFFFFF 92.96%);
+}
+
+.about_content h2{
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 58.08px;
+    text-align: left;
+    color: #000
+}
+
+.about_content p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    color:#000;
+}
+
+.skills h2{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58.08px;
+    text-align: center;
+    color:#000;
+}
+
+.lists{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+.lists div{
+    list-style: none;
+    border: 2px solid #7AA2E3;
+    width: 210px;
+    height: 183px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px 15px 50px 15px;
+    background-color: #fff;
+}
+
+.outer{
+    border: 2px solid #7AA2E3;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.percentage li::before{
+    content:"";
+    width:27px;
+    height: 27px;
+    background-color: #000;
+
+}
+
+.percentage li{
+    list-style: none;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: left;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.Quali h2{
+    font-family: Fredoka One;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58.08px;
+    text-align: left;
+    color:#000;
+}
+
+.hobby{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    text-align: left;
+    color: #000;
+}
+
+footer{
+    background: #7AA2E3;
+    padding-top: 50px;
+}
+
+.footer_list ul li{
+    list-style: none;
+}
+
+.footer_list ul li a{
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    text-align: left;
+    color:#fff;
+}
+
+.details ul li{
+    list-style: none;
+}
+
+details ul li{
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    text-align: left;
+    color:#fff;
+}
+
+.project{
+    background:#6AD4DD
+}
+
+.project h2{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.tech_used{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech_used div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.project ul li{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 15.73px;
+    text-align: left;
+    color: #fff;
+} 
+
+.project{
+    padding: 30px;
+    min-height: 250px!important;
+    margin-left: 20px;
+    border-radius: 35px;
+}
+
+.project h3{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 15.73px;
+    text-align: left;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.tech_used div img{
+    width: 40px;
+    height: 40px;
+}
+
+.projects-content button{
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+.slick-prev{
+    background: url('/images/left_arrow.png') no-repeat center;
+    top: 110px;
+    position: absolute;
+    left: -60px;
+}
+.slick-next{
+    background: url('/images/right_arrow.png') no-repeat center;
+    position: absolute;
+    top: 110px;
+    right: -60px;
+
+}
+.slick-dots button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #6AD4DD;
+}
+.slick-dots .slick-active button{
+    background-color: #1a8d97;
+}
+
+.proj{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58.08px;
+    text-align: center;
+    color:#000;
+}
+
+.contactus h2{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+    color:#fff;
+}
+
+.details ul li{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.details ul li a{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+}
+
+.Quali{
+    margin-bottom: 100px;
+}
